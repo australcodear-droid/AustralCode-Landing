@@ -24,7 +24,7 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-ink bg-paper/95 backdrop-blur-sm">
-      <nav className="section-wrap grid grid-cols-[1fr_auto] items-center lg:grid-cols-[220px_1fr_auto]">
+      <nav className="mx-auto grid max-w-[1500px] scroll-mt-[3.25rem] grid-cols-[1fr_auto] items-center lg:grid-cols-[220px_1fr_auto]">
         <a
           href="#home"
           onClick={() => setOpen(false)}
@@ -42,7 +42,7 @@ export function Navbar() {
             {links.map(([label, href]) => (
               <a
                 onClick={() => setOpen(false)}
-                className="nav-link border-b border-ink/10 px-4 py-4 text-[11px] font-bold tracking-wide lg:border-0"
+                className="relative border-b border-ink/10 px-4 py-4 text-[11px] font-bold tracking-wide after:absolute after:bottom-[11px] after:left-4 after:h-0.5 after:w-0 after:bg-mint after:transition-[width] after:duration-200 hover:after:w-[calc(100%-32px)] motion-reduce:after:transition-none lg:border-0"
                 href={href}
                 key={label}
               >

@@ -16,18 +16,18 @@ export function Contact() {
   }
   const title = t("contact.title", { returnObjects: true }) as string[];
   return (
-    <section id="contact" className="section-wrap bg-paper">
+    <section id="contact" className="mx-auto max-w-[1500px] scroll-mt-[3.25rem] bg-paper">
       <div className="grid grid-cols-12 border-x border-ink">
         <div className="col-span-12 border-b border-ink p-5 md:col-span-5 md:border-b-0 md:border-r md:p-8">
           <div className="flex flex-wrap items-start justify-between gap-4 md:block">
-            <p className="eyebrow">{t("contact.label")}</p>
-            <h2 className="headline text-[clamp(2.4rem,11vw,7rem)] leading-[.86] tracking-[-.1em] md:mt-12 md:text-[clamp(2.6rem,5.6vw,6rem)] md:leading-[.82]">
+            <p className="font-mono text-[10px] font-medium tracking-[.12em]">{t("contact.label")}</p>
+            <h2 className="break-words font-[Arial_Black,Impact,sans-serif] text-[clamp(2.4rem,11vw,7rem)] leading-[.86] tracking-[-.1em] md:mt-12 md:text-[clamp(2.6rem,5.6vw,6rem)] md:leading-[.82]">
               {title[0]}
               <br />
-              {title[1] && <i>{title[1]}</i>}
+              {title[1] && <i className="text-navy not-italic">{title[1]}</i>}
             </h2>
           </div>
-          <p className="stack-gap mt-6 text-sm leading-5 md:mt-12">{t("contact.intro")}</p>
+          <p className="mt-10 text-sm leading-5 md:mt-12">{t("contact.intro")}</p>
           <a
             className="mt-3 block break-words text-base font-bold underline decoration-mint decoration-4 underline-offset-4 md:text-lg"
             href="mailto:hello@australcode.com"

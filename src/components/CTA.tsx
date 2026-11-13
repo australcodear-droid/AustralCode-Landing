@@ -5,16 +5,16 @@ export function CTA() {
   const title = t('cta.title', { returnObjects: true }) as string[]
   return (
     <section className="bg-mint text-navy">
-      <div className="section-wrap border-x border-navy">
+      <div className="mx-auto max-w-[1500px] scroll-mt-[3.25rem] border-x border-navy">
         <div className="grid grid-cols-12 md:min-h-[460px]">
           <div className="col-span-12 flex flex-col justify-between gap-10 p-5 sm:p-6 md:col-span-9 md:gap-8 md:border-r md:border-navy md:p-8">
-            <p className="eyebrow">{t('cta.label')}</p>
-            <h2 className="headline text-[clamp(2.6rem,9vw,9.5rem)] leading-[.84] tracking-[-.1em] md:leading-[.78]">
+            <p className="font-mono text-[10px] font-medium tracking-[.12em]">{t('cta.label')}</p>
+            <h2 className="break-words font-[Arial_Black,Impact,sans-serif] text-[clamp(2.6rem,9vw,9.5rem)] leading-[.84] tracking-[-.1em] md:leading-[.78]">
               {title[0]}
               <br />
               {title[1]}
               <br />
-              <i>{title[2]}</i>
+              <i className="text-navy not-italic">{title[2]}</i>
             </h2>
             <a
               href="#contact"

@@ -5,7 +5,7 @@ export function Footer() {
   const location = t('footer.location', { returnObjects: true }) as string[]
   return (
     <footer className="bg-navy text-paper">
-      <div className="section-wrap grid grid-cols-12 border-x border-paper">
+      <div className="mx-auto grid max-w-[1500px] scroll-mt-[3.25rem] grid-cols-12 border-x border-paper">
         {/* Brand block collapses to a compact band on phones instead of reserving a tall empty column. */}
         <div className="col-span-12 flex flex-wrap items-end justify-between gap-6 border-b border-paper p-5 md:col-span-7 md:block md:border-b-0 md:border-r md:p-8">
           <p className="text-3xl font-black leading-none tracking-[-.09em] md:text-4xl">
