@@ -37,6 +37,7 @@ body {
 }
 .headline {
   font-family: "Arial Black", Impact, sans-serif;
+  overflow-wrap: break-word;
 }
 .headline i {
   color: #000080;

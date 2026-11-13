@@ -12,7 +12,7 @@ export function About() {
           <div className="text-6xl font-black leading-none tracking-tighter md:mt-20 md:text-[clamp(5rem,12vw,11rem)]">01</div>
         </div>
         <div className="col-span-12 p-5 md:col-span-8 md:p-8">
-          <h2 className="headline max-w-3xl text-[clamp(2.4rem,7.5vw,6.2rem)] leading-[.9] tracking-[-.09em] md:leading-[.88]">
+          <h2 className="headline max-w-3xl text-[clamp(1.85rem,7.5vw,6.2rem)] leading-[.9] tracking-[-.09em] md:text-[clamp(2.6rem,6.4vw,5.5rem)] md:leading-[.88]">
             {title[0]}
             <br />
             <i>{title[1]}</i> {title[2]}

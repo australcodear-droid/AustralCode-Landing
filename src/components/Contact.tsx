@@ -19,9 +19,9 @@ export function Contact() {
     <section id="contact" className="section-wrap bg-paper">
       <div className="grid grid-cols-12 border-x border-ink">
         <div className="col-span-12 border-b border-ink p-5 md:col-span-5 md:border-b-0 md:border-r md:p-8">
-          <div className="flex items-start justify-between gap-4 md:block">
+          <div className="flex flex-wrap items-start justify-between gap-4 md:block">
             <p className="eyebrow">{t("contact.label")}</p>
-            <h2 className="headline text-[clamp(2.8rem,13vw,7rem)] leading-[.86] tracking-[-.1em] md:mt-12 md:text-[clamp(3.8rem,7vw,7rem)] md:leading-[.82]">
+            <h2 className="headline text-[clamp(2.4rem,11vw,7rem)] leading-[.86] tracking-[-.1em] md:mt-12 md:text-[clamp(2.6rem,5.6vw,6rem)] md:leading-[.82]">
               {title[0]}
               <br />
               {title[1] && <i>{title[1]}</i>}
