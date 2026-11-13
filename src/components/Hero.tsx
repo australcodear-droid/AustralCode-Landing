@@ -11,7 +11,7 @@ export function Hero() {
             <span>{t('hero.studio')}</span>
             <span className="shrink-0">{t('hero.location')}</span>
           </div>
-          <h1 className="headline text-[clamp(2.9rem,13vw,10.5rem)] leading-[.82] tracking-[-.1em] lg:leading-[.78]">
+          <h1 className="headline text-[clamp(2.9rem,13vw,10.5rem)] leading-[.82] tracking-[-.1em] lg:text-[clamp(4rem,9.4vw,9.3rem)] lg:leading-[.78]">
             {title[0]}
             <br />
             {title[1]}

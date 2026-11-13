@@ -24,7 +24,7 @@ export function Services() {
           >
             <div className="col-span-2 flex items-start p-5 text-xs font-bold sm:p-6 md:p-7">{service.number}</div>
             <div className="col-span-10 border-l border-paper p-5 sm:p-6 md:col-span-5 md:p-7">
-              <h3 className="headline text-[clamp(1.6rem,5.5vw,3rem)] tracking-[-.07em] md:text-5xl">{service.title}</h3>
+              <h3 className="headline text-[clamp(1.6rem,5.5vw,3rem)] tracking-[-.07em] md:text-4xl lg:text-5xl">{service.title}</h3>
               <p className="mt-2 text-xs uppercase tracking-widest">{service.kicker}</p>
             </div>
             <div className="col-span-12 flex flex-col gap-5 border-t border-paper p-5 sm:flex-row sm:items-end sm:justify-between md:col-span-5 md:border-l md:border-t-0 md:p-7">

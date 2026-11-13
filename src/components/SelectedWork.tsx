@@ -22,7 +22,7 @@ export function SelectedWork() {
           <div className="col-span-12 p-5 md:col-span-4 md:border-r md:border-ink md:p-8">
             <div className="flex items-start justify-between gap-4 md:block">
               <p className="eyebrow">{t('work.label')}</p>
-              <h2 className="headline text-4xl leading-[.84] tracking-[-.1em] xs:text-5xl md:mt-8 md:text-6xl md:leading-[.8]">
+              <h2 className="headline text-4xl leading-[.84] tracking-[-.12em] xs:text-5xl md:mt-8 md:text-[2.15rem] md:leading-[.8] lg:text-5xl lg:tracking-[-.1em] xl:text-6xl">
                 {t('work.title')}
               </h2>
             </div>

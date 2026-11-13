@@ -12,7 +12,7 @@ export function Process() {
         <div className="grid grid-cols-12 border-b border-ink">
           <div className="col-span-12 p-5 md:col-span-5 md:border-r md:border-ink md:p-8">
             <p className="eyebrow">{t('process.label')}</p>
-            <h2 className="headline stack-gap mt-10 text-[clamp(2.6rem,8vw,7rem)] leading-[.86] tracking-[-.1em] md:mt-20 md:leading-[.8]">
+            <h2 className="headline stack-gap mt-10 text-[clamp(2.6rem,8vw,7rem)] leading-[.86] tracking-[-.1em] md:mt-20 md:text-[clamp(2.6rem,6.4vw,7rem)] md:leading-[.8]">
               {title[0]}
               <br />
               {title[1]}
